@@ -18,6 +18,11 @@
     } else{ return "number false"; }
 };
 
+    function taskFour($x, $y){
+    if($y == (0.5 * $x + 1)){
+        return 'true';
+    } else{ return "false"; }
+};
 
 /*echo  taskTree(2);*/
 
@@ -272,3 +277,12 @@ echo '<span style="padding:0 10px;background:aquamarine;">';
 echo $shopArr['mobile phone']['iphone']['5']['prise'];
 echo '<br>';
 echo $shopArr['mobile phone']['iphone']['5']['availability']['true'];
+echo taskFour(6,4);
+
+
+
+
+
+
+
+
