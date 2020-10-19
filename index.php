@@ -276,10 +276,13 @@ echo $shopArr['mobile phone']['iphone']['5']['name'];
 echo '<span style="padding:0 10px;background:aquamarine;">';
 echo $shopArr['mobile phone']['iphone']['5']['prise'];
 echo '<br>';
-echo $shopArr['mobile phone']['iphone']['5']['availability']['true'];
-echo taskFour(6,4);
+//echo $shopArr['mobile phone']['iphone']['5']['availability']['true'];
 
-
+if($shopArr['mobile phone']['iphone']['5']['availability']['true']){
+    echo $shopArr['mobile phone']['iphone']['5']['availability']['true'];
+} else{
+    echo $shopArr['mobile phone']['iphone']['5']['availability']['false'];
+}
 
 
 
